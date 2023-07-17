@@ -17,6 +17,13 @@
 .productsContainer h2 {
   font-size: 32px
 }
+.productsContainer > div {
+  margin:24px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 52px;
+  row-gap: 52px;
+}
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
  
