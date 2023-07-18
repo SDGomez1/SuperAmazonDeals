@@ -19,5 +19,6 @@ export const Products:Product[] = [
         link : 'https://amzn.to/3NTuCBj',
         imgUrl: '/productImg/5900x.jpg',
         imgALt: 'Imagen de la caja del procesador'
-    }
+    },
+    
 ]
