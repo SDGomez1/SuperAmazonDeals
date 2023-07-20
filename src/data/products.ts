@@ -29,6 +29,16 @@ export const Products:Product[] = [
         link : 'https://amzn.to/3rrYBZp',
         imgUrl: '/productImg/xboxStellarShift.jpg',
         imgALt: 'Imagen del control de xbox'
+    },
+    {
+        id: 3,
+        name: 'SANSUI Monitor 22 in',
+        description: '1080p FHD 75Hz Computer Monitor with HDMI VGA',
+        price: 74.99,
+        stars: 4,
+        link : 'https://amzn.to/3rBBSKG',
+        imgUrl: '/productImg/Sansui22.jpg',
+        imgALt: 'Imagen del tv Sansui 22In'
     }
     
 ]
