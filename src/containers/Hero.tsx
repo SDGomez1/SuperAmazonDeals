@@ -12,7 +12,10 @@ export const Hero = () => {
           No pierdas esta oportunidad de comprar barato y vender caro con
           facilidad
         </p>
-        <button style={raleway.style}> Descubre los productos</button>
+        <a href="#Products" style={raleway.style}>
+          {" "}
+          Descubre los productos
+        </a>
       </div>
       <div className={styles.figureContainer}>
         <HeroIlustration />

@@ -30,7 +30,10 @@
   letter-spacing: -0.72px;
   font-size: 24px;
 }
-.textContainer > button {
+.textContainer > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: var(--accent-color);
   border: none;
   border-radius: 8px;
@@ -68,7 +71,7 @@
     text-align: center;
     line-height: 110%;
   }
-  .textContainer > button {
+  .textContainer > a {
     align-self: center;
     margin-top: 20px;
   }
@@ -84,7 +87,7 @@
   .textContainer {
     padding: 50px 0px 0px 0px;
   }
-  .textContainer > button {
+  .textContainer > a {
     margin-top: 40px;
   }
 }

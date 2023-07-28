@@ -3,7 +3,7 @@ import styles from "@/styles/containers/HowItWorks.module.css";
 export const HowitWorks = () => {
   return (
     <section className={styles.main}>
-      <h3>¿Como funciona?</h3>
+      <h3 id="HowItWorks">¿Como funciona?</h3>
       <p> Encuentra las oportunidades en 6 simples pasos</p>
       <div className={styles.grid}>
         <div className={styles.gridItem}>

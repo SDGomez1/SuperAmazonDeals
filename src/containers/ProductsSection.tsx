@@ -23,7 +23,7 @@ export const ProductsSection = () => {
   return (
     <section className={styles.main}>
       <div className={styles.textContainer}>
-        <h2>Productos Exclusivos</h2>
+        <h2 id="Products">Productos Exclusivos</h2>
         <p>Explora los productos de Amazon con los mejores descuentos</p>
       </div>
       <div className={styles.productContainer}>{products}</div>
