@@ -31,3 +31,27 @@
   column-gap: 52px;
   row-gap: 52px;
 }
+
+@media (max-width: 700px) {
+  .main {
+    padding-top: 30px;
+    gap: 0;
+  }
+  .textContainer > h2 {
+    line-height: 110%;
+    margin-bottom: 16px;
+  }
+  .textContainer > p {
+    line-height: 110%;
+  }
+  .productContainer {
+    overflow-x: scroll;
+    padding: 50px 80px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 701px) and (max-width: 1120px) {
+  .productContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
