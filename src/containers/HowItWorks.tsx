@@ -67,7 +67,7 @@ export const HowitWorks = () => {
             <p className={styles.number}>6</p>
           </div>
           <div>
-            <p className={styles.textTitle}>Vende y aguarda</p>
+            <p className={styles.textTitle}>Publica, promociona y vende</p>
             <p className={styles.text}>
               Pon el producto en venta en MercadoLibre y espera compradores.
             </p>
