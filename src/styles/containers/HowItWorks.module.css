@@ -1,0 +1,52 @@
+.main {
+  background: var(--background-secondary);
+  height: 444px;
+  width: 100%;
+  border-radius: 8px;
+  padding: 48px 54px;
+}
+.main > h3 {
+  color: var(--primary-color);
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.96px;
+}
+
+.main > p {
+  color: var(--primary-color);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20.8px; /* 130% */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.3fr 1.3fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 100%;
+  width: 100%;
+}
+.gridItem {
+  display: flex;
+  gap: 16px;
+  width: 300px;
+  padding-top: 52px;
+}
+.number {
+  color: var(--secondary-color);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.textTitle {
+  color: var(--primary-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.8px;
+}
+.text {
+  color: var(--primary-color);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20.8px;
+}

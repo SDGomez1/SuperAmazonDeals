@@ -1,0 +1,33 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  width: 100%;
+  padding-top: 88px;
+}
+
+.textContainer > h2,
+.textContainer > p {
+  text-align: center;
+  color: var(--primary-color);
+}
+.textContainer > h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 20.8px; /* 57.778% */
+}
+
+.textContainer > p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 31.2px; /* 195% */
+  letter-spacing: -0.48px;
+}
+
+.productContainer {
+  margin: 24px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 52px;
+  row-gap: 52px;
+}
