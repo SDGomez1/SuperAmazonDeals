@@ -15,6 +15,8 @@ export const ProductsSection = () => {
         link={currentProduct.link}
         imgUrl={currentProduct.imgUrl}
         imgAlt={currentProduct.imgALt}
+        prevPrice={currentProduct.prevPrice}
+        discount={currentProduct.discount}
       />
     );
   });

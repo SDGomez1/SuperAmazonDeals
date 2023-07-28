@@ -10,6 +10,8 @@ export const ProductCard = (props: {
   link: string;
   imgUrl: string;
   imgAlt: string;
+  prevPrice: number;
+  discount: number;
 }) => {
   return (
     <div className={styles.container}>
@@ -26,9 +28,9 @@ export const ProductCard = (props: {
         <p>{props.description}</p>
         <div className={styles.priceContainer}>
           <div className={styles.priceTextContainer}>
-            <p id={styles.prevPrice}>$130.99</p>
+            <p id={styles.prevPrice}>${props.prevPrice}</p>
             <p id={styles.price}> ${props.price}</p>
-            <p>20% de descuento </p>
+            <p>{props.discount}% de descuento </p>
           </div>
           <div className={styles.starContainer}>
             <StarSvg numberofStars={props.stars} />
